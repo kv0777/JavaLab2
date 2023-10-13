@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -35,7 +37,6 @@ class Reader {
         this.name = name;
         this.borrowedItems = new ArrayList<>();
     }
-
     public String getName() {
         return name;
     }
