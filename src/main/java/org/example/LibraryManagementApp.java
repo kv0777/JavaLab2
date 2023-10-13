@@ -40,7 +40,6 @@ class Reader {
     public String getName() {
         return name;
     }
-
     public void borrowItem(Item item) {
         borrowedItems.add(item);
     }
