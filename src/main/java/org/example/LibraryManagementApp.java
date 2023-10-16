@@ -180,7 +180,6 @@ public class LibraryManagementApp {
                     System.out.println("Читача " + readerName + " зареєстровано.");
                     break;
                 case 4:
-                    // Видача предмета читачеві
                     System.out.println("Введіть ім'я читача:");
                     String readerToLendName = scanner.next();
                     Reader readerToLend = null;
